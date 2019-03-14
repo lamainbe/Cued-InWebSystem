@@ -4,17 +4,27 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Cued-In Web Sysytem</title>
+    <link href="Conten/bootstrap.css" rel="stylesheet" />
     <asp:ContentPlaceHolder id="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div class="vertical-menu">
+        <a href="Notifications.aspx">Notifications</a>
+        <a href="JobListings.aspx">Job Listings</a>
+        <a href="ScholarshipListings.aspx">Scholarship Listings</a>
+        <a href="EventListings.aspx">Event Listings</a>
+        <a href="Cued-InHelp.aspx">Cued-In Help</a>
+
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
     </form>
+     <script src="http://~/Scripts/jquery-3.3.1.slim.min.js"></script>
+    <script src="http://~/Scripts/popper.min.js"></script>
+    <script src="http://~/Scripts/bootstrap.bundle.min.js"></script>
 </body>
 </html>
