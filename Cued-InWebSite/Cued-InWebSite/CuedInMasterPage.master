@@ -11,7 +11,8 @@
     it to be a vertical nagivation page but change it to make prettier--%>
 <style>
     .vertical-menu {
-  width: 200px;
+  float: left;
+  width: 10%;
 }
 
 .vertical-menu a {
